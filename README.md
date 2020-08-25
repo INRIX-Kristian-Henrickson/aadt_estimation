@@ -1,4 +1,7 @@
 # aadt_estimation
+This repository contains a disconnected set of python scripts and notebooks that were used in the 2019 volume profiles patch. 
+
+Sorry for the state of this, I am gradually adding code and trying to make it more intepretable. I am not including code for the shape development as I feel it is not relavent, of course I can start adding it anyone would like to understand that process. 
 
 The model_aadt_basic.ipynb jupyter notebook is where the AADT modeling takes place. It takes as input the HPMS AADTs, the INRIX Trip counts, and some segment characteristics to predict what is basically a representation of the penetration rate of the trips data by OSM segment. The model features used in the notebook may not be the final feature set that was used in the product, in fact I remember including some representation of the azimuth of the segment. 
 
